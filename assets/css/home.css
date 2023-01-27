@@ -1,0 +1,398 @@
+/* Hero Section CSS Start */
+
+.hero-wrapper {
+  margin-top: 75px;
+}
+
+.slide-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  height: 100%;
+  color: #fff;
+}
+
+.slide-1 {
+  background: linear-gradient(#011e3680, #011e3680),
+    url(../images/home/hero-slider1.png);
+}
+.slide-2 {
+  background: linear-gradient(#011e3680, #011e3680),
+    url(../images/home/hero-slider1.png);
+}
+.slide-3 {
+  background: linear-gradient(#011e3680, #011e3680),
+    url(../images/home/hero-slider1.png);
+}
+
+.slide-1,
+.slide-2,
+.slide-3 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 800px;
+  padding-bottom: 100px;
+}
+
+.hero-content h4 {
+  font-size: 30px;
+}
+
+.hero-content h1 {
+  font-size: 70px;
+  padding: 10px 0;
+}
+
+.hero-content h5 {
+  font-size: 20px;
+}
+
+.hero-slider .slick-prev.slick-arrow,
+.hero-slider .slick-next.slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  font-size: 25px;
+  color: #cbcbcb;
+  background: #0000005e;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.hero-slider .slick-prev.slick-arrow {
+  left: 0;
+}
+
+.hero-slider .slick-next.slick-arrow {
+  right: 0;
+}
+
+.hero-slider .slick-dots {
+  bottom: 170px;
+}
+
+.hero-slider .slick-dots li button {
+  background: #8797a8;
+  font-size: 0px;
+  width: 15px;
+  height: 15px;
+  border: none;
+  border-radius: 50%;
+  margin: 0 3px;
+}
+
+.hero-slider .slick-dots li.slick-active button {
+  background: var(--primary);
+}
+
+/* Hero Section CSS End */
+
+/* Success States Section CSS Start */
+
+.success-container {
+  position: relative;
+  background: var(--light);
+  margin-top: -130px;
+  box-shadow: 0px 8px 40px #00000014;
+  border-radius: 10px;
+}
+
+.our-pride {
+  position: relative;
+  height: 100%;
+  background: var(--secondary);
+  padding: 30px;
+  border-radius: 10px 0 0 10px;
+  overflow: hidden;
+}
+
+.our-pride::after {
+  position: absolute;
+  content: "";
+  width: 105px;
+  height: 120%;
+  top: -30px;
+  right: -60px;
+  transform: rotate(18deg);
+  background: var(--light);
+}
+
+.our-pride h4 {
+  font-size: 30px;
+  color: var(--light);
+}
+
+.our-pride h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 55px;
+  color: var(--light);
+  margin: 0;
+}
+
+.success-states-card {
+  text-align: center;
+}
+
+.success-states-card h1 {
+  font-size: 70px;
+  font-weight: 700;
+  color: #45586c;
+}
+
+.success-states-card p {
+  font-size: 18px;
+  color: var(--dark);
+}
+
+/* Success States Section CSS End */
+
+/* Vision Section CSS Start */
+
+.vision-wrapper {
+  padding: 100px 0;
+}
+
+.vision-card {
+  height: 100%;
+  background: var(--light);
+  padding: 50px 30px;
+  margin: 0 10px;
+  box-shadow: 0px 8px 40px #00000014;
+  border-radius: 10px;
+}
+
+.vision-card p {
+  font-size: 18px;
+  color: var(--dark);
+  padding-top: 30px;
+  margin: 0;
+}
+
+.vision-btn {
+  padding-top: 70px;
+}
+
+/* Vision Section CSS End */
+
+/* Home Blog Section HTML Start */
+
+.home-blog-wrapper {
+  background: #f7f7f7;
+  padding: 100px 0;
+}
+
+.home-blog-title {
+  max-width: 950px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.home-blog-title h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 20px;
+}
+
+.home-blog-title p {
+  font-size: 18px;
+  color: var(--dark);
+  margin: 0;
+}
+
+.home-blog-left-img img {
+  width: 100%;
+  min-height: 455px;
+  max-height: 455px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.home-blog-left-content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 50px 20px 20px 20px;
+  width: 100%;
+  background: linear-gradient(180deg, #00000000 0%, #000000b8 100%);
+  border-radius: 0px 0px 10px 10px;
+}
+
+.home-blog-left-content h4 {
+  font-size: 25px;
+  color: var(--light);
+  margin: 0;
+}
+
+.home-blog-left-content h6 {
+  font-size: 20px;
+  color: var(--light);
+  margin: 0;
+}
+
+.home-blog-left-content a {
+  font-size: 18px;
+  color: var(--light);
+}
+
+.home-blog-left-content a i {
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+.row.home-right-blog-card {
+  padding-bottom: 25px;
+}
+
+.home-right-blog-img img {
+  width: 100%;
+  min-height: 135px;
+  max-height: 135px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.home-right-blog-content h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.home-right-blog-content p {
+  font-size: 14px;
+  color: var(--gray);
+  margin: 0;
+}
+
+.home-right-blog-content a {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--secondary);
+}
+
+.home-right-blog-content a i {
+  font-size: 14px;
+  padding-left: 5px;
+}
+
+/* Home Blog Section HTML End */
+
+/* Home Page Responsive CSS */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hero-content h1,
+  .success-states-card h1 {
+    font-size: 56px;
+    line-height: 60px;
+  }
+
+  .our-pride::after {
+    top: -20px;
+    right: -68px;
+  }
+
+  .our-pride h2 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero-content h1,
+  .success-states-card h1 {
+    font-size: 48px;
+    line-height: 50px;
+  }
+
+  .our-pride {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .our-pride::after {
+    display: none;
+  }
+
+  .our-pride h2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .home-blog-title h3 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .hero-content h4,
+  .our-pride h4 {
+    font-size: 24px;
+  }
+
+  .hero-content h1,
+  .success-states-card h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .hero-content h5,
+  .home-right-blog-content h5 {
+    font-size: 18px;
+  }
+
+  .our-pride {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .our-pride::after {
+    display: none;
+  }
+
+  .our-pride h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .vision-card {
+    margin: 0;
+  }
+
+  .home-blog-title h3 {
+    font-size: 30px;
+  }
+
+  .home-blog-left-img img {
+    width: 100%;
+    min-height: 350px;
+    max-height: 350px;
+    height: 100%;
+  }
+
+  .home-blog-left-content h4 {
+    font-size: 20px;
+  }
+
+  .home-blog-left-content h6 {
+    font-size: 18px;
+    padding: 10px 0;
+  }
+
+  .home-blog-left-content a {
+    font-size: 16px;
+  }
+
+  .home-right-blog-img img {
+    min-height: 150px;
+    max-height: 150px;
+    height: 100%;
+  }
+}
