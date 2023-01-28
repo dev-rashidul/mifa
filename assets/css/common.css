@@ -221,7 +221,6 @@ a.join-us {
 /* Footer Section CSS Start */
 
 .footer-wrapper {
-  margin-top: 150px;
   background: #45586c;
   padding: 80px 0;
 }
@@ -277,12 +276,39 @@ a.join-us {
 
 /* Common CSS for Slider icons */
 
+.slick-prev.slick-arrow,
+.slick-next.slick-arrow {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+
 .slick-dots {
   position: absolute;
   display: flex;
   left: 50%;
   bottom: -30px;
   transform: translateX(-50%);
+}
+
+.slick-dots li button {
+  background: #cccccc;
+  font-size: 0px;
+  width: 8px;
+  height: 8px;
+  border: none;
+  border-radius: 50%;
+  margin: 0 2px;
+}
+
+.slick-dots li.slick-active button {
+  background: #45586c;
 }
 
 /* Responsive Common CSS */
