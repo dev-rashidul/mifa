@@ -1,0 +1,280 @@
+/* About Hero Section CSS Start */
+
+.about-hero-wrapper {
+  background: linear-gradient(#011e3681, #011e3681),
+    url(../images/about/about-hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 500px;
+  max-height: 500px;
+  height: 100%;
+  margin: 77px 0 180px;
+}
+
+.about-hero-content-container {
+  padding: 50px 80px 0;
+}
+
+.about-hero-title h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--light);
+}
+
+.about-hero-content {
+  padding: 80px;
+  margin-top: 30px;
+  background: var(--light);
+  box-shadow: 0px 8px 40px #00000014;
+  border: 1px solid #e4e4e4;
+  border-radius: 10px;
+}
+
+.about-hero-content p {
+  font-size: 18px;
+  color: var(--dark);
+  margin-bottom: 20px;
+}
+
+.about-hero-content h6 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--secondary);
+}
+
+/* About Hero Section CSS End */
+
+/* Leadership Section CSS Start */
+
+.leadership-wrapper {
+  padding: 120px 0;
+}
+
+.leadership-wrapper .container {
+  padding: 0 100px;
+}
+
+.leadership-title h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.leadership-card {
+  padding-top: 80px;
+}
+
+.leadership-card-img img {
+  max-width: 350px;
+  width: 100%;
+  min-height: 350px;
+  max-height: 350px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.leadership-card-top-content h4 {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 0;
+}
+
+.leaders-social ul {
+  display: flex;
+}
+
+.leaders-social ul li {
+  padding-left: 12px;
+}
+
+.leaders-social ul li a {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #7a838f;
+  border-radius: 100%;
+}
+
+.leaders-social ul li a i {
+  color: #7a838f;
+}
+
+.leadership-card-content hr {
+  margin: 20px 0 !important;
+  border-top: 1px solid #e8e8e8;
+  opacity: 1;
+}
+
+.leadership-card-bottom-content h6 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 15px;
+}
+
+.leadership-card-bottom-content p {
+  font-size: 18px;
+  color: var(--dark);
+  margin-bottom: 0;
+}
+
+/* Leadership Section CSS End */
+
+/* About Page Responsive CSS */
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .about-hero-wrapper {
+    margin-bottom: 250px;
+  }
+
+  .leadership-wrapper .container {
+    padding: 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .about-hero-wrapper {
+    margin-bottom: 250px;
+  }
+
+  .about-hero-content-container {
+    padding: 50px 0 0;
+  }
+
+  .about-hero-title h2,
+  .leadership-title h2 {
+    font-size: 40px;
+  }
+
+  .leadership-wrapper .container {
+    padding: 0;
+  }
+
+  .leadership-card-img img {
+    max-width: 280px;
+    width: 100%;
+    min-height: 280px;
+    max-height: 280px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .about-hero-wrapper {
+    margin-bottom: 250px;
+  }
+
+  .about-hero-content-container {
+    padding: 50px 0 0;
+  }
+
+  .about-hero-content {
+    padding: 50px;
+  }
+
+  .about-hero-title h2,
+  .leadership-title h2 {
+    font-size: 36px;
+  }
+
+  .leadership-wrapper .container {
+    padding: 0;
+  }
+
+  .leadership-card-img {
+    text-align: center;
+  }
+
+  .leadership-card-img img {
+    max-width: 280px;
+    width: 100%;
+    min-height: 280px;
+    max-height: 280px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .about-hero-content-container {
+    padding: 50px 0 0;
+  }
+
+  .about-hero-content {
+    padding: 30px;
+  }
+
+  .about-hero-title h2,
+  .leadership-title h2 {
+    font-size: 30px;
+  }
+
+  .leadership-wrapper .container {
+    padding: 0 20px;
+  }
+
+  .leadership-card-img {
+    text-align: center;
+  }
+
+  .leadership-card-img img {
+    max-width: 280px;
+    width: 100%;
+    min-height: 280px;
+    max-height: 280px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+
+  .leadership-card-top-content h4 {
+    font-size: 24px;
+  }
+
+  .leaders-social ul li {
+    padding-left: 0;
+    padding-right: 12px;
+  }
+
+  .leadership-card-top-content h6 {
+    font-size: 18px;
+  }
+
+  .about-hero-content p,
+  .about-hero-content h6,
+  .leadership-card-bottom-content p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 700px) {
+  .about-hero-wrapper {
+    margin-bottom: 100px;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 500px) {
+  .about-hero-wrapper {
+    margin-bottom: 250px;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 400px) {
+  .about-hero-wrapper {
+    margin-bottom: 550px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 350px) {
+  .about-hero-wrapper {
+    margin-bottom: 550px;
+  }
+}

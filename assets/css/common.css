@@ -246,7 +246,7 @@ a.join-us {
   color: var(--light);
 }
 
-.footer-social ul li {
+.footer-social ul li a {
   width: 35px;
   height: 35px;
   display: flex;
@@ -284,7 +284,6 @@ a.join-us {
   align-items: center;
   width: 40px;
   height: 40px;
-  border-radius: 100%;
   cursor: pointer;
   z-index: 1;
 }

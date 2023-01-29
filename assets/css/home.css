@@ -169,11 +169,16 @@
   border-radius: 10px;
 }
 
+.vision-card-img {
+  min-height: 110px;
+  max-height: 110px;
+  height: 100%;
+}
+
 .vision-card p {
   font-size: 18px;
   color: var(--dark);
-  padding-top: 30px;
-  margin: 0;
+  margin: 10px 0 0;
 }
 
 .vision-btn {
@@ -514,6 +519,7 @@
 
 .accordion-button {
   font-size: 18px;
+  font-weight: 600;
   color: var(--dark);
   padding: 10px 0 !important;
   margin: 10px 0;
@@ -526,7 +532,8 @@
 
 .accordion-button:not(.collapsed) {
   font-size: 18px;
-  color: var(--primary);
+  font-weight: 600;
+  color: #2f9259;
   background: none;
   box-shadow: none;
 }
