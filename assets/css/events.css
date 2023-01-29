@@ -1,0 +1,104 @@
+/* Events Section CSS Start */
+
+.events-wrapper {
+  padding: 120px 0 80px;
+}
+
+.events-title h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.events-card {
+  padding-top: 40px;
+}
+
+.events-card-img img {
+  width: 100%;
+  min-height: 380px;
+  max-height: 380px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.events-date {
+  position: absolute;
+  bottom: 0px;
+  left: -10px;
+}
+
+.events-date p {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--dark);
+  background: var(--light);
+  padding: 7px 10px;
+  box-shadow: 0px 0px 10px #00000046;
+  border-radius: 8px;
+}
+
+.events-date p i {
+  font-size: 18px;
+  padding-right: 8px;
+}
+
+.events-card-content {
+  padding-top: 15px;
+}
+
+.events-card-content p {
+  font-size: 18px;
+  color: var(--dark);
+  margin-bottom: 0;
+}
+
+.events-loader.text-center {
+  padding-top: 60px;
+}
+
+.events-loader p {
+  font-size: 18px;
+  color: var(--dark);
+  padding-top: 20px;
+}
+
+.loading-icon img {
+  animation: loading-icon-spin infinite 2s linear;
+}
+
+@keyframes loading-icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Events Section CSS End */
+
+/* Events Page Responsive CSS */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .events-title h2 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .events-title h2 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .events-title h2 {
+    font-size: 30px;
+  }
+
+  .events-card-content p {
+    font-size: 16px;
+  }
+}
