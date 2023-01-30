@@ -310,6 +310,36 @@ a.join-us {
   background: #45586c;
 }
 
+/* Similar Events Section CSS Start */
+
+.similar-events-wrapper {
+  padding: 120px 0 200px;
+}
+
+.events-card {
+  margin: 0 20px;
+}
+
+.similar-events-slider .slick-dots {
+  bottom: -70px;
+}
+
+.similar-events-slider .slick-dots li button {
+  background: #91919257;
+  font-size: 0px;
+  width: 50px;
+  height: 7px;
+  border: none;
+  border-radius: 0;
+  margin: 0 4px;
+}
+
+.similar-events-slider .slick-dots li.slick-active button {
+  background: var(--primary);
+}
+
+/* Similar Events Section CSS End */
+
 /* Responsive Common CSS */
 
 @media (min-width: 1200px) and (max-width: 1400px) {
@@ -331,5 +361,15 @@ a.join-us {
 
   .section-title h6 {
     font-size: 18px;
+  }
+
+  .similar-events-slider .events-card {
+    margin: 0 5px;
+  }
+
+  .similar-events-slider .events-card img {
+    min-height: 300px;
+    max-height: 300px;
+    height: 100%;
   }
 }
