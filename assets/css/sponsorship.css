@@ -1,0 +1,197 @@
+/* Sponsorship Hero Section CSS Start */
+
+.sponsorship-hero-wrapper {
+  padding-top: 150px;
+}
+
+.sponsorship-hero-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--dark);
+  padding-bottom: 10px;
+}
+
+.sponsorship-hero-content p {
+  font-size: 18px;
+  color: var(--dark);
+  padding: 5px 0;
+  margin: 0;
+}
+
+/* Sponsorship Hero Section CSS End */
+
+/* Opportunities Section CSS Start */
+
+.opportunities-recognition-wrapper {
+  padding-top: 150px;
+}
+
+.opportunities-recognition-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.opportunities-recognition-content {
+  position: relative;
+  width: 55%;
+  min-height: 480px;
+  max-height: 480px;
+  height: 100%;
+  padding: 60px 50px;
+  background: var(--secondary);
+  z-index: 1;
+}
+
+.opportunities-recognition-content::after {
+  position: absolute;
+  content: "";
+  top: -85px;
+  right: -37px;
+  width: 165px;
+  height: 125%;
+  transform: rotate(7deg);
+  background: var(--secondary);
+  z-index: -1;
+}
+
+.opportunities-recognition-content h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--light);
+  padding: 10px 0 5px;
+}
+
+.opportunities-recognition-content p {
+  font-size: 18px;
+  color: var(--light);
+}
+
+.opportunities-recognition-img {
+  width: 45%;
+  border-radius: 0 10px 10px 0;
+  overflow: hidden;
+}
+
+.opportunities-recognition-img img {
+  width: 100%;
+  min-height: 480px;
+  max-height: 480px;
+  height: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+/* Opportunities Section CSS End */
+
+/* Sponsorship Section CSS Start */
+
+.sponsorship-wrapper {
+  padding: 150px 0;
+}
+
+.sponsor-slider {
+  padding: 60px 0 30px;
+}
+
+.sponsorship-logo img {
+  text-align: center;
+}
+
+.become-sponsor-btn {
+  padding-top: 80px;
+}
+
+/* Sponsorship Section CSS End */
+
+/* Sponsorship Page Responsive CSS */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .sponsorship-hero-content h1 {
+    font-size: 40px;
+  }
+
+  .opportunities-recognition-content {
+    padding-top: 30px;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .sponsorship-hero-content h1 {
+    font-size: 36px;
+  }
+
+  .opportunities-recognition-container {
+    flex-direction: column;
+  }
+
+  .opportunities-recognition-content,
+  .opportunities-recognition-img {
+    width: 100%;
+  }
+
+  .opportunities-recognition-content::after {
+    display: none;
+  }
+
+  .opportunities-recognition-img {
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .sponsorship-hero-content h1 {
+    font-size: 30px;
+  }
+
+  .sponsorship-hero-content p,
+  .opportunities-recognition-content p {
+    font-size: 16px;
+  }
+
+  .opportunities-recognition-container {
+    flex-direction: column;
+  }
+
+  .opportunities-recognition-content {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .opportunities-recognition-content h3 {
+    font-size: 25px;
+  }
+
+  .opportunities-recognition-img {
+    width: 100%;
+  }
+
+  .opportunities-recognition-img img {
+    width: 100%;
+    min-height: 350px;
+    max-height: 350px;
+    height: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+
+  .opportunities-recognition-content::after {
+    display: none;
+  }
+
+  .opportunities-recognition-img {
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 420px) {
+  .opportunities-recognition-content {
+    width: 100%;
+    min-height: 560px;
+    max-height: 560px;
+    height: 100%;
+  }
+}

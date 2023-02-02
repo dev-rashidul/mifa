@@ -1,0 +1,110 @@
+/* Beyond The Game Section CSS Start */
+
+.beyond-game-wrapper {
+  padding: 140px 0 100px;
+}
+
+.beyond-game-top h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.beyond-game-show-filter label {
+  font-size: 18px;
+  color: var(--dark);
+  padding-right: 10px;
+}
+
+.beyond-game-show-filter select {
+  max-width: 250px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c6c6c6;
+  border-radius: 5px;
+}
+
+.beyond-game-show-filter select:focus {
+  outline: 0;
+}
+
+.beyond-game-card-img {
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.beyond-game-card-img img {
+  width: 100%;
+  min-height: 370px;
+  max-height: 370px;
+  height: 100%;
+}
+
+.beyond-game-card-content {
+  padding-top: 10px;
+}
+
+.beyond-game-card-content span.beyond-game-tag {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--dark);
+  background: #eeefee;
+  padding: 5px 20px;
+  border-radius: 12px;
+}
+
+.beyond-game-card-content p {
+  font-size: 18px;
+  color: var(--dark);
+  padding-top: 15px;
+}
+
+/* Beyond The Game Section CSS End */
+
+/* Beyond Page Responsive CSS */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .beyond-game-top h2 {
+    font-size: 40px;
+  }
+
+  .beyond-game-card-img img {
+    width: 100%;
+    min-height: 300px;
+    max-height: 300px;
+    height: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .beyond-game-top h2 {
+    font-size: 36px;
+  }
+
+  .beyond-game-card-img img {
+    width: 100%;
+    min-height: 300px;
+    max-height: 300px;
+    height: 100%;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .beyond-game-top h2 {
+    font-size: 30px;
+  }
+
+  .beyond-game-show-filter label,
+  .beyond-game-card-content p,
+  .beyond-loader p {
+    font-size: 16px;
+  }
+
+  .beyond-game-card-img img {
+    width: 100%;
+    min-height: 320px;
+    max-height: 320px;
+    height: 100%;
+  }
+}

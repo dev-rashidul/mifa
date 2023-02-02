@@ -54,29 +54,6 @@
   margin-bottom: 0;
 }
 
-.events-loader.text-center {
-  padding-top: 60px;
-}
-
-.events-loader p {
-  font-size: 18px;
-  color: var(--dark);
-  padding-top: 20px;
-}
-
-.loading-icon img {
-  animation: loading-icon-spin infinite 2s linear;
-}
-
-@keyframes loading-icon-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 /* Events Section CSS End */
 
 /* Events Page Responsive CSS */

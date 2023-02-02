@@ -340,6 +340,33 @@ a.join-us {
 
 /* Similar Events Section CSS End */
 
+/* Loader CSS Start */
+
+.loader {
+  padding-top: 60px;
+}
+
+.loader p {
+  font-size: 18px;
+  color: var(--dark);
+  padding-top: 20px;
+}
+
+.loading-icon img {
+  animation: loading-icon-spin infinite 2s linear;
+}
+
+@keyframes loading-icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Loader CSS End */
+
 /* Responsive Common CSS */
 
 @media (min-width: 1200px) and (max-width: 1400px) {
