@@ -1,0 +1,36 @@
+/* Academic Research CSS Start */
+
+.academic-research-wrapper {
+  padding: 100px 0;
+}
+
+.academic-research-tag span {
+  font-size: 12px;
+  font-weight: 600;
+  background: #eeefee;
+  padding: 5px 20px;
+  border-radius: 30px;
+}
+
+.academic-research-content h3 {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.continue-reading-btn a {
+  padding: 12px 20px;
+}
+
+.continue-reading-btn a i {
+  padding-right: 5px;
+}
+
+.single-post-more-news-card-content p {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--gray);
+  margin-bottom: 8px;
+}
+
+/* Academic Research CSS End */

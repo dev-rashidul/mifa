@@ -1,0 +1,22 @@
+/* Community Project CSS Start */
+
+.community-project-wrapper {
+  padding: 100px 0;
+}
+
+.community-project-tag span {
+  font-size: 12px;
+  font-weight: 600;
+  background: #eeefee;
+  padding: 5px 20px;
+  border-radius: 30px;
+}
+
+.single-post-more-news-card-content p {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--gray);
+  margin-bottom: 8px;
+}
+
+/* Community Project CSS End */
